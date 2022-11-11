@@ -13,6 +13,7 @@ Don't Leave Your Ecommerce At Home.
 - Email & Password Authentication
 - Persisting Auth State
 - Searching Products
+- Voice Searching Products
 - Filtering Products (Based on Category)
 - Product Details
 - Rating
@@ -31,37 +32,6 @@ Don't Leave Your Ecommerce At Home.
     - Viewing Total Earnings
     - Viewing Category Based Earnings (on Graph)
 
-## Running Locally
-After cloning this repository, migrate to ```ecom-app``` folder. Then, follow the following steps:
-- Create MongoDB Project & Cluster
-- Click on Connect, follow the process where you will get the uri.- Replace the MongoDB uri with yours in ```server/index.js```.
-- Head to ```lib/constants/global_variables.dart``` file, replace <yourip> with your IP Address. 
-- Create Cloudinary Project, enable unsigned operation in settings.
-- Head to ```lib/features/admin/services/admin_services.dart```, replace ```denfgaxvg``` and ```uszbstnu``` with your Cloud Name and Upload Preset respectively.
-
-Then run the following commands to run your app:
-
-### Server Side
-```bash
-  cd server
-  npm install
-  npm run dev (for continuous development)
-  OR
-  npm start (to run script 1 time)
-```
-
-### Client Side
-```bash
-  flutter pub get
-  open -a simulator (to get iOS Simulator)
-  flutter run
-```
-
-## Tech Used
-**Server**: Node.js, Express, Mongoose, MongoDB, Cloudinary
-
-**Client**: Flutter, Provider
-    
-## Feedback
+## Feedback / Buy Full Script
 
 If you have any feedback, to get the full script please reach out to me at faizangame998@gmail.com
