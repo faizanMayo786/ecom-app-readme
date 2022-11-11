@@ -64,4 +64,4 @@ Then run the following commands to run your app:
     
 ## Feedback
 
-If you have any feedback, please reach out to me at faizangame998@gmail.com
+If you have any feedback, to get the full script please reach out to me at faizangame998@gmail.com
